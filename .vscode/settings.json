@@ -10,6 +10,8 @@
         "iostream": "cpp",
         "ostream": "cpp",
         "iosfwd": "cpp",
-        "sstream": "cpp"
+        "sstream": "cpp",
+        "cmath": "cpp",
+        "complex": "cpp"
     }
 }

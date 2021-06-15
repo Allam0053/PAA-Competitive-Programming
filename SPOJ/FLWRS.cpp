@@ -24,3 +24,18 @@ int main () {
     printf("%d\n", hasil);
     return 0;
 }
+
+/*
+
+pada problem ini, program harus dapat menghitung jumlah konfigurasi dimana jumlah konfigurasi dihitung dari jumlah pemindahan yang mungkin dilakukan dengan syarat pemindahan pot dimana pot yang pada awalnya bersebalahan maka tidak boleh bersebelahan lagi
+misal
+ABCDE
+maka peraturannya adalah AB, BC, CD, DE tidak boleh bersebelahan.
+dengan kata lain konfigurasi yang mengandung
+AB, BC, CD, DE, ED, DC, CB, BA 
+adalah konfigurasi yang salah.
+untuk soal ini diperlukan referensi dari jurnal yang ada sehingga ditemukan keteraturannya.
+jika panjang atau banyak pot lebih dari 4 maka akan dilakukan looping untuk menghitung konfigurasi yang muncul karena recurrence dari 4 konfigurasi sebelumnya.
+a(n) = (n+1)*a(n-1) - (n-2)*a(n-2) - (n-5)*a(n-3) + (n-3)*a(n-4)
+
+*/
