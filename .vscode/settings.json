@@ -13,6 +13,8 @@
         "sstream": "cpp",
         "cmath": "cpp",
         "complex": "cpp",
-        "random": "cpp"
+        "random": "cpp",
+        "new": "cpp",
+        "algorithm": "cpp"
     }
 }
